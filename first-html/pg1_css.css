@@ -1,0 +1,32 @@
+h1.beatles{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img1:hover{
+    border-radius: 200px;
+    z-index: -1;
+}
+
+p.des{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: blue;
+}
+
+hr{
+    width: 75%;
+    margin-top: 60px;
+}
+

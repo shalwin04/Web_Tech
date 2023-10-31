@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: hwb(0 22% 12% / 0.4);
+  display: flex;
+  text-align: center;
+}
+
+.container {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 350px;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+form input:focus {
+  background: #efefef;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 85%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input::placeholder {
+  font-weight: normal;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+
+input:focus::placeholder {
+  position: absolute;
+  font-size: 10px;
+  transform: translateY(-6px);
+}
+
+button {
+  width: 90%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form .or {
+  color: #5a5a5a;
+  margin: 10px 0;
+  font-weight: bold;
+  position: relative;
+}
+
+form .or::before {
+  position: absolute;
+  content: "";
+  width: 37%;
+  height: 2px;
+  background: #b6b6b6;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+}
+
+form .or::after {
+  position: absolute;
+  content: "";
+  width: 37%;
+  height: 2px;
+  background: #b6b6b6;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+}
+
+#error-message {
+  color: red;
+}
+
+.fb {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.fb a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #021897;
+}
+
+.forgetpass {
+  margin: 15px;
+}
+
+.forgetpass a {
+  text-decoration: none;
+  color: #025fd2;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.signup {
+  position: relative;
+  border: 1px solid #b6b6b6;
+  border-radius: 2px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+
+.signup a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #008af0;
+}

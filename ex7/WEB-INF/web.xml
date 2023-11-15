@@ -1,0 +1,23 @@
+<web-app>
+    <servlet>
+        <servlet-name>ex7a</servlet-name>
+        <servlet-class>ex7a</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ex7a</servlet-name>
+        <url-pattern>/db3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ex7b</servlet-name>
+        <servlet-class>ex7b</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ex7b</servlet-name>
+        <url-pattern>/userhitcount</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

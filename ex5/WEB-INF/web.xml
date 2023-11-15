@@ -1,0 +1,22 @@
+<web-app>   
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>ex5a</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ex5a</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>HelloForm</servlet-name>
+        <servlet-class>ex5b</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloForm</servlet-name>
+        <url-pattern>/HelloForm</url-pattern>
+    </servlet-mapping>
+
+</web-app>
